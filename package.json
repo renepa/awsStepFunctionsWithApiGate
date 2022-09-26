@@ -11,10 +11,11 @@
     "cdk": "cdk"
   },
   "devDependencies": {
-    "aws-cdk": "2.31.2",
+    "@types/aws-lambda": "^8.10.51",
     "@types/jest": "^27.5.2",
     "@types/node": "10.17.27",
     "@types/prettier": "2.6.0",
+    "aws-cdk": "2.31.2",
     "jest": "^27.5.1",
     "ts-jest": "^27.1.4",
     "ts-node": "^10.8.1",
@@ -22,6 +23,7 @@
   },
   "dependencies": {
     "aws-cdk-lib": "2.31.2",
+    "cdk": "^2.43.0",
     "constructs": "^10.0.0"
   }
 }
